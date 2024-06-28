@@ -1,15 +1,15 @@
 # M480BSP_SPI_MDC_MDIO
  M480BSP_SPI_MDC_MDIO
 
-udpate @ 2024/04/09
+udpate @ 2024/06/28
 
 1. use SPI mode to emulate MDIO function (2.5MHz)
 	
-	- PA.15 : SPI2_MOSI
+	- PA.15 : SPI2_MOSI , connect to MDIO
 		
-	- PA.14 : SPI2_MISO
+	- PA.14 : SPI2_MISO , connect to MDIO
 		
-	- PA.13 : SPI2_CLK
+	- PA.13 : SPI2_CLK , connect to MDC
 		
 	- PA.12 : SPI2_SS
 
